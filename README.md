@@ -56,16 +56,3 @@ First ensure you are in a new and empty directory.
     npm run build
     ```
 
-## FAQ
-
-* __How do I use this with the Ganache-CLI?__
-
-    It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using, you'll also need to update line 29 of `client/src/utils/getWeb3.js`.
-
-* __Where is my production build?__
-
-    The production build will be in the `client/build` folder after running `npm run build` in the `client` folder.
-
-* __Where can I find more documentation?__
-
-    This box is a marriage of [Truffle](http://truffleframework.com/) and a React setup created with [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Either one would be a great place to start!
